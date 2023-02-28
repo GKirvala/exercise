@@ -1,3 +1,7 @@
+@import url(//db.onlinewebfonts.com/c/0d49fc455f4a8951a42daf952412a713?family=Helvetica+Neue);
+ol{
+    font-family: "Helvetica Neue";
+}
 *{
     margin: 0;
     padding: 0;
@@ -69,5 +73,6 @@ li{
     height: 800px;
     
 }
+
 
 
