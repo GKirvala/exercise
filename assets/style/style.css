@@ -1,5 +1,5 @@
 @import url(//db.onlinewebfonts.com/c/0d49fc455f4a8951a42daf952412a713?family=Helvetica+Neue);
-ol{
+ul{
     font-family: "Helvetica Neue";
 }
 *{
@@ -13,19 +13,27 @@ a{
 ul,ol{
     list-style-type: none;
 }
-.container{
-    max-width: 100%;
+header{
     max-width: 1920px;
-    background-color: #0020F4;
-    
-    
+    width: 100%;
+    background-color: #0020F4;      
 }
-.banner{
-    max-width: 100%;
+.container{
+    max-width: 1475px;
+    width: 100%;
+    position: fixed;
+    top: 27px;
+    left: 240px;
+    z-index: 1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+/* .banner{
     max-width: 115px;
-    margin-left: 240px;
-    margin-top: 40px;
-    color: black;
+    width: 100%;
+    padding-top: 40px;
+    padding-left: 240px;
 }
 ol{
     margin: auto;
@@ -53,7 +61,7 @@ li{
     margin: auto;
     margin-top: -20px;
 }
-.containertwo{
+.images{
     display: flex;
     margin-left: 240px;
     margin-top: 280px;
@@ -61,18 +69,71 @@ li{
     
 }
 .house{
-    width: 100%;
     max-width:707px;
+    width: 100%;
     height: 597px;
     margin: auto;
     padding-right: 25px;
 }
 .housetwo{
-    width: 100%;
     max-width: 948px;
+    width: 100%;
     height: 800px;
     
 }
 
+
+ */
+ .navbar,
+.navbar-ul,
+.navbar-li{
+    display: inline-block;
+
+}
+.navbar{
+    padding-top: 37px;
+}
+
+.navbar-li{
+    padding-right: 50px;
+}
+
+
+
+nav>ul>li>a{
+    color:#FFFFFF;
+    font-size: 16px;
+    line-height: 18px;
+    font-family: Helvetica;
+}
+.images{
+    
+     padding-left: 240px;
+     display: inline-block;
+        /* margin: auto; */
+    }
+        
+.house{
+    position: sticky;
+     top: 280px;
+     left: 240px;
+     max-width: 707px;
+     width: 100%;
+    border-radius: 15px;
+    padding-right: 25px;
+    padding-bottom: 150px;
+    padding-top: 280px;
+    }
+    
+.housetwo{
+    position: sticky;
+    top: 215px;
+    left: 972px;
+    border-radius: 15px;
+    max-width: 948px;
+    width: 100%;
+    padding-top: 215px;
+        
+}
 
 
